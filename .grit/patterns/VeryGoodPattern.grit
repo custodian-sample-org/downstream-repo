@@ -1,3 +1,0 @@
-pattern FixMyLogs($msg) = `console.log($old)` => `console.log($msg, $old)`
-
-FixMyLogs("cool")

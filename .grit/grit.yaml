@@ -1,2 +1,5 @@
 version: 0.0.1
-patterns: []
+patterns:
+- name: github.com/custodian-sample-org/shared-repo#FixMyLogs
+  enforced: false
+
